@@ -7,8 +7,11 @@
 //
 
 #import "NLViewController.h"
+#import <NLCircularProgressView/NLCycleView.h>
 
 @interface NLViewController ()
+
+@property(nonatomic,strong)NLCycleView *progressView;
 
 @end
 
@@ -18,20 +21,20 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-//    NLCycleView *progressView = [[NLCycleView alloc]initWithFrame:CGRectMake(0, 0, 80, 80)];
-//    progressView.center = self.view.center;
-//    progressView.fontSize = 10;
-//    progressView.fontColor = [UIColor blackColor];
-//    progressView.strokeColor = [UIColor blueColor];
-//    progressView.progress = 0.0f;
-//    _progressView = progressView;
-//    [self.view addSubview:progressView];
+    NLCycleView *progressView = [[NLCycleView alloc]initWithFrame:CGRectMake(0, 0, 80, 80)];
+    progressView.center = self.view.center;
+    progressView.fontSize = 10;
+    progressView.fontColor = [UIColor blackColor];
+    progressView.strokeColor = [UIColor blueColor];
+    progressView.progress = 0.0f;
+    _progressView = progressView;
+    [self.view addSubview:progressView];
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-//    static CGFloat i = 0.0f;
-//    i += 0.05f;
-//    _progressView.progress = i;
+    static CGFloat i = 0.0f;
+    i += 0.05f;
+    _progressView.progress = i;
 }
 
 @end

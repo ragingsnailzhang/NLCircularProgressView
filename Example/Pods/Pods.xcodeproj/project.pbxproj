@@ -39,10 +39,10 @@
 
 /* Begin PBXFileReference section */
 		007510E4588964E08C8F856B8EBA63E4 /* Pods-NLCircularProgressView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NLCircularProgressView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		0829078F1DFB4B0FF6B55D5EF9FE2FB5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0829078F1DFB4B0FF6B55D5EF9FE2FB5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0C1FAD4361BD73CB26AFC2A60BF858F5 /* Pods-NLCircularProgressView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NLCircularProgressView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0C8F61417713C74B41B593687C482A17 /* Pods-NLCircularProgressView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NLCircularProgressView_Tests-dummy.m"; sourceTree = "<group>"; };
-		1825AA21D29694E96043280D8427810A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1825AA21D29694E96043280D8427810A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1B07403DAE99AC65630C760509E70A0B /* Pods-NLCircularProgressView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NLCircularProgressView_Example.modulemap"; sourceTree = "<group>"; };
 		1B98EDBECFF625EDF9CC290F94223761 /* Pods-NLCircularProgressView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NLCircularProgressView_Example-umbrella.h"; sourceTree = "<group>"; };
 		2A8F595CDF455E632D7A9E59BA6CB3E4 /* Pods-NLCircularProgressView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NLCircularProgressView_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -56,17 +56,17 @@
 		63477F6F53C907EED1268EBDE92F17FC /* Pods-NLCircularProgressView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NLCircularProgressView_Example-Info.plist"; sourceTree = "<group>"; };
 		644551F9F451A7A8266FF82231A5CC2B /* NLCircularProgressView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NLCircularProgressView-dummy.m"; sourceTree = "<group>"; };
 		6F089B0322AD3B14ED446F99A27903A8 /* NLCycleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NLCycleView.m; path = NLCircularProgressView/Classes/NLCycleView.m; sourceTree = "<group>"; };
-		7FAC136DFABB206EB3CBAF0F9D92EE83 /* NLCircularProgressView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NLCircularProgressView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7FAC136DFABB206EB3CBAF0F9D92EE83 /* NLCircularProgressView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NLCircularProgressView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98AB05A9891D3A0FEA1DD13E084BEE31 /* Pods-NLCircularProgressView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NLCircularProgressView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DC24769349895021BE0C04CA84A5B2C /* Pods_NLCircularProgressView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NLCircularProgressView_Example.framework; path = "Pods-NLCircularProgressView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DC24769349895021BE0C04CA84A5B2C /* Pods_NLCircularProgressView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NLCircularProgressView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E6CDD92611EB6525D338B3C6D03EACB /* NLCycleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NLCycleView.h; path = NLCircularProgressView/Classes/NLCycleView.h; sourceTree = "<group>"; };
 		A98963A03E08791E4EDEF1D2E5D17728 /* Pods-NLCircularProgressView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NLCircularProgressView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AD8C2698F2E47F1BCA8DDA6A02CFBC92 /* NLCircularProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NLCircularProgressView.framework; path = NLCircularProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8C2698F2E47F1BCA8DDA6A02CFBC92 /* NLCircularProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NLCircularProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5B5ED331B8DCDD1417526EDE458AF0 /* NLCircularProgressView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NLCircularProgressView-umbrella.h"; sourceTree = "<group>"; };
 		B1F959D4F1CD02C5DC8684FDCE4CCD82 /* NLCircularProgressView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NLCircularProgressView.modulemap; sourceTree = "<group>"; };
 		BF69470BC25406AE7A29DFEAC07B451C /* NLCircularProgressView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NLCircularProgressView.xcconfig; sourceTree = "<group>"; };
-		D22FB0ACB2D0782CE7E0AD7A1ECCB546 /* Pods_NLCircularProgressView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NLCircularProgressView_Tests.framework; path = "Pods-NLCircularProgressView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22FB0ACB2D0782CE7E0AD7A1ECCB546 /* Pods_NLCircularProgressView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NLCircularProgressView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E8FDBC4014A630190C539DB4F0DAF9 /* Pods-NLCircularProgressView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NLCircularProgressView_Tests.modulemap"; sourceTree = "<group>"; };
 		D8FA9E69B73A59BD4ED28D6FEA921000 /* NLCircularProgressView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NLCircularProgressView-prefix.pch"; sourceTree = "<group>"; };
 		DF5E9001652A109BE8EC5CC3C3B599D2 /* Pods-NLCircularProgressView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NLCircularProgressView_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -460,8 +460,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

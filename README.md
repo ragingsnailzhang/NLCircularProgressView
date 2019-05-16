@@ -9,6 +9,17 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+```
+NLCycleView *progressView = [[NLCycleView alloc]initWithFrame:CGRectMake(0, 0, 80, 80)];
+progressView.center = self.view.center;
+progressView.fontSize = 10;
+progressView.fontColor = [UIColor blackColor];
+progressView.strokeColor = [UIColor blueColor];
+progressView.progress = 0.0f;
+_progressView = progressView;
+[self.view addSubview:progressView];
+```
+
 ## Requirements
 
 ## Installation
@@ -22,7 +33,7 @@ pod 'NLCircularProgressView'
 
 ## Author
 
-wz_yinglong, wz_yinglong@163.com
+wzyinglong, wz_yinglong@163.com
 
 ## License
 

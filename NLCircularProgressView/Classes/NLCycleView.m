@@ -10,12 +10,11 @@
 
 #define ViewWidth self.frame.size.width   //环形进度条的视图宽度
 
-@interface NLCycleView(){
-    CAShapeLayer *arcLayer;
-}
+@interface NLCycleView()
+
 @property (nonatomic,strong)UILabel *label;
 @property (nonatomic,assign)CGFloat radius;//环形进度条的半径
-
+@property (nonatomic,strong)CAShapeLayer *arcLayer;
 @end
 
 @implementation NLCycleView
@@ -81,21 +80,21 @@
     
     UIBezierPath *path=[UIBezierPath bezierPath];
     [path addArcWithCenter:CGPointMake(xCenter,yCenter) radius:self.radius startAngle:- M_PI * 0.5 endAngle:to clockwise:YES];
-    arcLayer=[CAShapeLayer layer];
-    arcLayer.path=path.CGPath;//46,169,230
-    arcLayer.fillColor = [UIColor clearColor].CGColor;
-    arcLayer.strokeColor=[UIColor colorWithRed:227.0/255.0 green:91.0/255.0 blue:90.0/255.0 alpha:1].CGColor;
+    self.arcLayer=[CAShapeLayer layer];
+    self.arcLayer.path=path.CGPath;//46,169,230
+    self.arcLayer.fillColor = [UIColor clearColor].CGColor;
+    self.arcLayer.strokeColor=[UIColor colorWithRed:227.0/255.0 green:91.0/255.0 blue:90.0/255.0 alpha:1].CGColor;
     if (self.strokeColor) {
-        arcLayer.strokeColor=self.strokeColor.CGColor;
+        self.arcLayer.strokeColor=self.strokeColor.CGColor;
     }
-    arcLayer.lineWidth=self.progressWidth;
-    arcLayer.lineCap = @"round";
-    arcLayer.backgroundColor = [UIColor blueColor].CGColor;
-    [self.layer addSublayer:arcLayer];
+    self.arcLayer.lineWidth=self.progressWidth;
+    self.arcLayer.lineCap = @"round";
+    self.arcLayer.backgroundColor = [UIColor blueColor].CGColor;
+    [self.layer addSublayer:self.arcLayer];
     
-    
+     __weak __typeof(&*self)weakSelf = self;
     dispatch_async(dispatch_get_global_queue(0, 0), ^{
-        [self drawLineAnimation:self->arcLayer];
+        [self drawLineAnimation:weakSelf.arcLayer];
     });
     
 }
@@ -112,7 +111,7 @@
     
 }
 -(void)setProgress:(CGFloat)progress{
-    [arcLayer removeFromSuperlayer];
+    [self.arcLayer removeFromSuperlayer];
     _progress = progress;
     [self setNeedsDisplay];
 }

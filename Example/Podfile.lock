@@ -1,0 +1,16 @@
+PODS:
+  - NLCircularProgressView (0.1.0)
+
+DEPENDENCIES:
+  - NLCircularProgressView (from `../`)
+
+EXTERNAL SOURCES:
+  NLCircularProgressView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NLCircularProgressView: 20f0724a85f0b01151aa579434dbbcf3167cfa95
+
+PODFILE CHECKSUM: 0720abb79dd0e226f8ddcce863185fae6a59cfd1
+
+COCOAPODS: 1.6.2

@@ -1,0 +1,6 @@
+framework module NLCircularProgressView {
+  umbrella header "NLCircularProgressView-umbrella.h"
+
+  export *
+  module * { export * }
+}
